@@ -34,9 +34,8 @@ public class AnimalsCage {
 //        System.out.println(animal.toString());
 //        System.out.println(animalCat.toString() + ", " + animalDog.toString());
         System.out.println(animalCat.toString() + ", " + animalDog.toString());
-
         System.out.println("At:");
-        System.out.println(new Timer().getTime());
+        System.out.println(timer.getTime());
         System.out.println("________________________");
     }
 }
